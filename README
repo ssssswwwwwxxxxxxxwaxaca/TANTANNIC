@@ -1,0 +1,33 @@
+# 泰坦尼克号生存预测项目
+
+## 项目简介
+本项目基于泰坦尼克号乘客数据，利用机器学习方法预测乘客的生存概率。主要流程包括数据预处理、特征工程、模型训练与评估，并可视化结果。
+
+## 项目结构
+- `data/`：存放原始数据集（如 `train.csv`、`titanic.csv`）
+- `code/`：存放核心代码（如 `train.ipynb`）
+- `model/`：保存训练好的模型文件（如 `titanic_model.pkl`）
+
+## 主要依赖
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+
+## 快速开始
+1. 安装依赖：
+   ```
+   pip install pandas numpy scikit-learn matplotlib seaborn
+   ```
+2. 准备数据集，将 `titanic.csv` 放入 `data/` 文件夹。
+3. 运行 `code/train.ipynb`，即可训练模型并查看结果。
+
+## 主要功能
+- 数据清洗与特征工程
+- 随机森林模型训练与预测
+- 模型评估（准确率、分类报告、混淆矩阵可视化）
+- 模型保存与复用
+
+## 参考
+- [Kaggle 泰坦尼克号竞赛](https://www.kaggle.com/c/titanic)
